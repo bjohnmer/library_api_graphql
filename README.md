@@ -1,6 +1,7 @@
-# README
+# Ruby on Rails, GraphQL, Devise and CanCanCan.
+Tokenization, Authentication and Authorization for GraphQL, all in one project.
 
-## To install and run just:
+## To install just run:
 
 * Ruby version
   `ruby-2.6.5`
