@@ -26,3 +26,5 @@ rr_martin.books.create(id: 5, title: 'A Song for Lya', yop: 1974, category: fict
 rr_martin.books.create(id: 6, title: 'The Ice Dragon', yop: 1980, category: fiction)
 rr_martin.books.create(id: 7, title: 'The World of Ice & Fire', yop: 2014, category: fantasy)
 rr_martin.books.create(id: 8, title: 'A Knight of the Seven Kingdoms', yop: 2015, category: fantasy)
+
+User.create! first_name: 'Admin', last_name: 'Admin', email: 'admin@admin.com', password: 'test1234', password_confirmation: 'test1234', role: :admin
